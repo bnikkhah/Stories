@@ -1,0 +1,18 @@
+<div class='content-main'>
+  <h1>Get the latest updates from Stories!</h1>
+  <%= form_for(@signup) do |f| %>
+  	<div class='form-group'>
+     	<%= label_tag(:firstname, 'First Name') %><br />
+    	<%= f.text_field(:firstname) %><br />
+  	</div>
+  	<div class='form-group'>
+      <%= label_tag(:email, 'Email') %><br />
+      <%= f.text_field(:email) %>
+  	</div>
+  	<%= f.submit %>
+  <% end %>
+<div>
+  
+<div class='footer'>
+  <p>Building Stories</p>
+</div>

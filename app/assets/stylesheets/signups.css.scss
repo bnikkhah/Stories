@@ -1,0 +1,25 @@
+// Place all the styles related to the Signups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.content-main{
+  background-image:url(http://cdn2.collective-evolution.com/assets/uploads/2015/01/trees.jpg);
+  background-position:center;
+  background-size:cover;
+  text-align:center;
+  color:#fff;
+  height:700px;
+}
+
+form input{
+  color:#000;
+}
+
+.footer{
+  text-align:center;
+  color:#808080;
+}
+
+h1{
+  margin:0;
+}
